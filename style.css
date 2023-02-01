@@ -14,12 +14,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
-    height: 100vh;
     flex-wrap: nowrap;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 .inicio .contenedor-banner{
