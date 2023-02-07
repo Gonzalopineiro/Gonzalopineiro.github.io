@@ -1,12 +1,16 @@
 html{
     overflow-x: hidden;
-    
 }
 
 body{
     background-color: #f3f3f3;
     font-family: 'system-ui', sans-serif;
     overflow-x: hidden;
+    display: block;
+    position: relative;
+    max-width: 100%;
+    column-gap: 24px;
+    row-gap: 24px;
     
 }
 
@@ -14,12 +18,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
     background-size: cover;
     flex-wrap: nowrap;
     padding-left: 30px;
     padding-right: 30px;
-    
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .inicio .contenedor-banner{
@@ -112,5 +116,98 @@ body{
     box-shadow: 0 1.5vw 1.5vw rgba(0, 0, 0, 0.5);
 }
 
+.learning .Tecnologias {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0.2rem 0.4rem 12rem rgba(0, 0, 0, 0.08);
+}
+
+.learning img {
+    max-width: auto;
+    height: 100px;
+}
+
+.learning {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-wrap: nowrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100vh;
+}
+
+.learning h1 {
+    font-size: 40px;
+    margin-top: 5px;
+    color: #1d1d1d;
+}
+
+.learning .h3 {
+    color: #1d1d1d;
+}
+
+.learning .Tecnologias .logos {
+    display: flex;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.learning .Tecnologias .logos .java {
+    /* There will be 3 cards per row */
+    flex-basis: 33.33333%;
+    padding: 0.25rem;
+}
 
 
+.learning .Tecnologias .logos .css {
+    /* There will be 3 cards per row */
+    flex-basis: 33.33333%;
+    padding: 0.25rem;
+}
+
+.learning .Tecnologias .logos .js {
+    /* There will be 3 cards per row */
+    flex-basis: 33.33333%;
+    padding: 0.25rem;
+}
+
+.learning .Tecnologias .logos .html {
+    /* There will be 3 cards per row */
+    flex-basis: 33.33333%;
+    padding: 0.25rem;
+}
+
+
+
+.learning .Tecnologias .logos .java:hover {
+    transform: scale(1.1);
+    
+    
+}   
+
+.learning .Tecnologias .logos .html:hover {
+    transform: scale(1.1);
+   
+    
+}   
+
+.learning .Tecnologias .logos .css:hover {
+    transform: scale(1.1);
+    
+    
+}   
+
+.learning .Tecnologias .logos .js:hover {
+    transform: scale(1.1);
+    
+    
+}   
